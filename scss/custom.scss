@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+$body-bg: #FFF1E0;
+
+
+// Theme colors
+// https://getbootstrap.com/docs/5.3/customize/color/#theme-colors
+$primary: #000000;
+$secondary: #FFB861;
+$tertiary: #000000;
+$success: #FFDBB0;
+$info: #FFF1E0;
+$warning: #DF5500;
+$danger: #dd7596;
+$light: #f2f2f2;
+$dark: #ffffff;
+
+
+// Changing navbar
+$navbar-light-color: rgb(255, 255, 255);
+$navbar-light-hover-color: #FFB861;
+$navbar-light-active-color: #FFB861;
+
+
+// Typography
+h1, h2, h3, h4 {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+$font-family-sans-serif: "Rubik", sans-serif;
+$headings-font-family: "Rubik", sans-serif;
+
+
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.441rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1rem;
+
+
+$line-height-base: 1.6;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// Then add additional custom code here
